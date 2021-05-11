@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "035c93fa-a230-4155-9081-536cb5eb067c",
+		"_postman_id": "1ec1230d-efb5-4f7f-b5f7-338aa8048e79",
 		"name": "Employee-Data",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -11,16 +11,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://dummy.restapiexample.com/api/v1/employees",
-					"protocol": "http",
+					"raw": "{{employeedata}}/employees",
 					"host": [
-						"dummy",
-						"restapiexample",
-						"com"
+						"{{employeedata}}"
 					],
 					"path": [
-						"api",
-						"v1",
 						"employees"
 					]
 				}
